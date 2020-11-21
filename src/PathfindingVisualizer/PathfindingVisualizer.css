@@ -1,0 +1,132 @@
+.toggle {
+    /* background-color: rgba(0, 211, 158, 0.671); */
+    background: rgba(0, 211, 158, 0.8) !important;
+    font-size: 1.1em !important;
+    border-color: rgb(57, 197, 157) !important;
+    font-weight: 600 !important;
+    font-family: "Ubuntu", sans-serif !important;
+    height: 32px !important;
+    width: 300px;
+    text-align: center;
+    z-index: 999;
+    position: relative;
+    top: 35px;
+    opacity: 1;
+  }
+  
+  .toggle:hover {
+    background-color: rgba(10, 235, 179, 0.897) !important;
+    border-color: rgba(10, 235, 179, 0.897) !important;
+  }
+  
+  .btn-reset {
+    background-color: rgba(250, 65, 9, 0.822) !important;
+    border-color: rgba(250, 65, 9, 0.822) !important;
+    z-index: 999 !important;
+    position: relative !important;
+    top: 37px;
+    opacity: 1;
+    margin-right: 15px;
+    transition-duration: 0.4s !important;
+  }
+  
+  .btn-reset:hover {
+    /* transform: scale(1.4); */
+    background-color: rgba(253, 0, 0, 0.9) !important;
+    border-color: rgba(253, 0, 0, 0.9) !important;
+    transform: rotate(150deg);
+    transition: all 0.7s ease 0s !important;
+    /* z-index: 999 !important;
+    position: relative !important; */
+  }
+  
+  .icon-reset {
+    position: relative;
+    width: 29px;
+    height: 18px;
+    left: -3px;
+    fill: white;
+    bottom: -1px;
+    /* vertical-align: -0.5em; */
+  }
+  
+  .legend-container {
+    margin-top: 35px;
+    position: relative;
+    /* left: -2.5em; */
+  }
+  
+  .grid {
+    position: relative;
+    top: 38px;
+  }
+  
+  .grid-container {
+    width: 100%;
+    height: 88%;
+    position: fixed;
+    top: 12%;
+    z-index: 2;
+    background-color: white;
+    opacity: 0.89;
+  }
+  
+  .tutorial-affix {
+    float: left !important;
+    /* margin-left: -75px !important; */
+    /* margin-left: -45px; */
+  }
+  
+  .tutorial-btn:hover {
+    left: -60px !important;
+    border-color: rgba(0, 195, 255, 0.911) !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17) !important;
+  }
+  
+  .tutorial-btn:hover .tutorial-innerbtn {
+    /* background-color: rgba(0, 211, 158, 0.8) !important; */
+    background-color: rgba(0, 195, 255, 0.911) !important;
+    opacity: 0.8 !important;
+  }
+  
+  .tutorial-btn {
+    position: relative !important;
+    width: 120px !important;
+    height: 40px !important;
+    left: -75px !important;
+    border-color: rgb(217, 217, 217) !important;
+    /* height: 20px !important; */
+  }
+  
+  .tutorial-innerbtn {
+    position: absolute !important;
+    border-radius: 100%;
+    color: white;
+    background-color: rgba(50, 153, 250, 0.897);
+    height: 30px !important;
+    width: 30px !important;
+    top: 4px !important;
+    right: 5px !important;
+  }
+  
+  .tutorial-icon {
+    font-size: 1.3em;
+    position: absolute !important;
+    top: 5px;
+    left: 5px;
+  }
+  /* .tutorial-affix:hover,
+  .tutorial-affix:focus .tutorial-btn {
+    letter-spacing: 20px !important;
+  }
+  .tutorial-affix:hover,
+  .tutorial-affix:focus {
+    margin-left: -25px !important;
+  } */
+  /* :global(.ant-btn-primary) {
+    background-color: var(black);
+    &:hover {
+      background-color: var(pink) !important;
+      border-color: var(pink) !important;
+    }
+  } */
