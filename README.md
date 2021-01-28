@@ -1,3 +1,19 @@
+# Path-Visualizer
+
+A complete Front End Web Application to visualize Dijkstra's
+Algorithm in a game like enviornment. Allows to set walls anywhere
+on the map and see how the algorithm works based on user input. This
+a web based App and non responsive.
+
+
+Technologies used in this App
+
+# React.JS
+# Redux.JS
+# HTML
+# CSS
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
