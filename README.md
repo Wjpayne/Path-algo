@@ -1,5 +1,9 @@
 # Path-Visualizer
 
+Check out the live App here!
+
+[Path-visualization](https://path-visualization.herokuapp.com/)
+
 A complete Front End Web Application to visualize Dijkstra's
 Algorithm in a game like enviornment. Allows to set walls anywhere
 on the map and see how the algorithm works based on user input. This
