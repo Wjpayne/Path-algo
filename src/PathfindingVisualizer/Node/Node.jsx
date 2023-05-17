@@ -52,10 +52,10 @@ export default class Node extends Component {
   }
 
   handleMouseEnter() {
-    // get row col of current node
+    
     let row = this.props.row;
     let col = this.props.col;
-    // here, if the node being entered is not starter nor stopper, the previous start/stop node should be cleared
+    
     if (
       !store.getState().nodes[row][col].isStart &&
       !store.getState().nodes[row][col].isStop
